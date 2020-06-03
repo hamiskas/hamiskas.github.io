@@ -1,0 +1,13 @@
+a {
+  display: block; 
+  margin: 10px;
+  font-family: 'Sen', sans-serif;
+  color: green;
+}
+
+a:visited {color: green;}
+a:hover {
+  color: lime;
+  text-decoration: none;
+}
+a:active {color: red;}

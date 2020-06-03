@@ -1,0 +1,26 @@
+form {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 28px;
+  background-color: #ffffef
+  }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input {
+  display: block;
+  font-size: 28px;
+  padding: 20px; 
+  border-color: #60df30;
+  border-width: 3px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+button {
+  font-size: 28px;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #60df30;
+  border-radius: 40px;
+}

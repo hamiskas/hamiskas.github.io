@@ -1,0 +1,233 @@
+$bacground-color: lightyellow;
+$naV-color: lime;
+$hover-color: yellow;
+$active-color: red;
+$visited-color: $naV-color;
+$hdr2-color: yellow;
+$hdr1-color: yellow;
+$maiN-color: #222;
+$separate-color: orange;
+$separate-background: $maiN-color;
+$apost-color: $naV-color;
+
+body {
+  max-width: 1303px;
+  background: $bacground-color;
+  margin: 0;
+  padding: 0;
+}
+
+nav {                         /*navigációs sáv*/
+  display: flex-wrap;
+  padding-top: 20px;
+  padding-bottom: 17px;
+  justify-content: center;
+  align-items: center;
+  background: #222; 
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  font-size: 38px;
+  font-weight: 300;
+  margin-left: 139px;
+  color: $naV-color;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.onPage {
+  display: flex-wrap;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  background: #222;
+  margin-left: -27px;
+}
+.onPage a {
+  font-size: 32px;
+  margin-left: 50px;
+}
+
+a:visited {color: $visited-color;}
+a:hover {
+  color: $hover-color;
+  text-decoration: none;
+  position: relative;
+  top: -3px;
+}
+
+a:active {color: $active-color;}  /*navigációs sáv vége*/
+
+header {                        /*Header*/
+  display: block;
+  background-image: url("https://i.imgur.com/27cqZ5s.png");
+  background-size: cover;  
+  height: 400px;
+  Position: relative;
+  top: -80px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+div {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+}
+
+.hdr2 {
+  position: relative;
+  top: 35px;
+  line-height: 70%;
+  color: $hdr2-color;
+}
+
+h2 {
+  font-size: 100px;
+  font-weight: 600;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.toThe {
+  position: relative;
+  left: 4.5%;
+  top: 17px;
+}
+
+.toYoung {
+  position: relative;
+  left: 6.1%;
+}
+
+.toAnakin {
+  position: relative;
+  left: 7%;
+  top: 5px;
+}
+
+.toHasa {
+  position: relative;
+  left: 13%;
+  top: -9px;
+}
+
+.beforeMoustache-line {
+  display: flex;
+  background: $bacground-color;
+  height: 300px;
+  width: 3px;
+  position: relative;
+  left: 40%;
+  top:-275px;
+}
+
+.Moustache {
+  font-weight: 900;
+  font-size: 104px;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+  left: 40.5%;
+  bottom: 501px;
+  color: $hdr1-color;
+}                                /*Header vége*/
+
+main {        /* közös formázás és betűtípusok*/
+  display: flex;
+  line-height: 160%;
+  font-weight: 400;
+  color: $maiN-color;
+}
+
+mark {
+  font-family: 'Merriweather', serif;
+  background: $bacground-color;
+  font-style: italic;
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+h4, mark {
+  margin: 4px;
+}
+
+h3 {
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}     /* közös formázás és betűtípusok vége */
+
+.afterImage {             /* Achievement-sáv*/
+  margin-top: -77px;
+}
+
+separate {
+  display: flex;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 78px;
+  background: $separate-background;
+  color: $separate-color;
+  height: 500px;
+  width: 33%;
+  padding: 80px 113px 50px 0px;
+  margin-left: -22px;
+  line-height: 150%;
+}
+
+separate::before {
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 230px;
+  transform: rotate(180deg);
+  width: 20%;
+  position: relative;
+  top: -363px; 
+  left: 32px;
+  color: $apost-color;
+}
+
+.hasab {
+  position: relative;
+  left: 0px;
+  margin-left: 30px;
+  width: 75%;
+}                        /* Achievement-sáv vége*/
+
+.middlE {                /* Experience-sáv*/
+  width: 30%;
+  padding: 80px 144px 50px 0px;
+  margin-left: -14px; 
+}
+
+.hasab2 {
+  margin-left: 30px;
+  width: 58%;
+}                     /* Experience-sáv vége*/
+
+
+.lasT {               /* Training-sáv*/
+  height: 990px;
+}
+
+.lasT::before {
+  content: '”';
+  font-size: 230px;
+  font-family: 'Abril Fatface', cursive;
+  transform: rotate(180deg);
+  position: relative;
+  top: -608px; 
+  left: 32px;
+  color: $apost-color;
+}
+
+.hasab3 {
+  margin-left: 30px;
+  width: 58%;
+}                     /* Training-sáv vége*/
