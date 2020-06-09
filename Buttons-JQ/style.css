@@ -5,3 +5,7 @@ button {
     background-color: #60df30;
     border-radius: 40px;
   }
+
+label, input {
+    font-size: 28px;
+  }
